@@ -1,0 +1,21 @@
+{
+  "name": "html2react-loader",
+  "version": "0.0.3",
+  "description": "html code to React code.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:mlinquan/html2react-loader.git"
+  },
+  "keywords": [
+    "jsx",
+    "react",
+    "className",
+    "class",
+    "loader",
+    "webpack"
+  ],
+  "author": "LinQuan",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
