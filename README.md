@@ -23,7 +23,7 @@ module.exports = {
   module: {
     preLoaders: [{
       test: /\.(js|jsx)$/,
-      loader: 'jsxpre'
+      loader: 'html2react'
     }]
   }
 };
