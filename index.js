@@ -3,7 +3,7 @@ module.exports = function(source) {
   var value = source.replace(/\s+class=/g, ' className=');
 
   value = value.replace(/(\<(area|base|br|col|embed|frame|hr|img|input|isindex|keygen|link|meta|param|source|track|wbr)(\s*|\/|([^>]+(\=\>)[^>]+)+|[^\>]+))\>/g, function(tagAll, tag) {
-    return tagAll.replace(/\s*\/?\>$/, ' />';
+    return tag.replace(/\/$/, '') + ' />';
   });
 
   value = value.replace(/<label([^\>]+)for=/g, function(label, otherAttr) {

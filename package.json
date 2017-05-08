@@ -1,6 +1,6 @@
 {
   "name": "html2react-loader",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "html code to React code.",
   "main": "index.js",
   "repository": {
